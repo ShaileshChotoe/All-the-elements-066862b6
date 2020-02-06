@@ -1,4 +1,4 @@
-var h1 = document.querySelector("h2").style.color = "blue";
+var h1 = document.querySelector("h2").classList.add("h3");
 var array = document.querySelectorAll("p");
 
 array.forEach(element => 
